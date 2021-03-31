@@ -1,0 +1,191 @@
+@media (max-width: 1700px){
+    .header_btn_bg{
+        display: none;
+    }
+    .header_right_img_right{
+        left: 100px;
+    }
+}
+
+@media (max-width: 1300px){
+    .price_item {
+        padding: 24px 15px 30px;
+    }
+}
+
+@media (max-width: 1200px){
+    .header_right_img_right{
+        display: none;
+    }
+    .phone_btn{
+        right: 100px;
+    }
+    .info_items {
+        display: inline;
+        flex-wrap: nowrap;
+        width: auto;
+    }
+    .info_item {
+        margin: 0 auto;
+    }
+    .slider_item_info {
+        width: 700px;
+        justify-content: center;
+    }
+    .slider_item_info_text {
+        margin-right: 0px;
+    }
+    .slider_item_info_img {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .header_inner {
+        display: inline;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .logo_img {
+        margin: 20px auto 15px;
+    }
+
+
+    .menu_btn{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    .menu_list{
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        transform: translateY(-400%);
+        transition: all .4s;
+    }
+    .menu_list.menu_list-active{
+        transform: translateY(0);
+        transition: all .4s;
+    }
+    .menu_btn:hover + .menu_list.menu_list-active{
+        background-color: #FED100;
+    }
+    .menu_list_item + .menu_list_item {
+        margin-left: 0px;
+    }
+    .menu_list_item {
+        border: 1px solid #333333;
+    }
+
+    .header_left {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header_title {
+        margin: 0 auto;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .header_btn {
+        margin-top: 20px;
+    }
+    .header_btn_link {
+        padding: 15px 40px;
+    }
+    .header_advantages {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .header_advantages_item {
+        margin-bottom: 15px;
+    }
+    .header_right_img{
+        display: none;
+    }
+    .phone_btn {
+        display: none;
+    }
+    .price_items {
+        display: inline;
+    }
+    .price_item {
+        margin-bottom: 20px;
+    }
+    .car_btn {
+        display: inline;
+        text-align: center;
+    }
+    .car_btn_1 + .car_btn_1 {
+        margin-left: 0px;
+    }
+    .slider_item_info {
+        width: auto;
+    }
+    .reviews_title {
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    .reviews_items{
+        display: inline;
+    }
+    .reviews_item + .reviews_item{
+        margin-left: 0px;
+    }
+    .reviews_btn {
+        padding-bottom: 60px;
+    }
+    .form_info {
+        display: inline;
+    }
+    .name,
+    .tel {
+        width: 270px;
+        margin: 0 20px 50px 0;
+    }
+    .form_check {
+        margin-bottom: 40px;
+    }
+    .map_info {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .footer_items {
+        display: inline;
+        text-align: center;
+    }
+    .footer_logo {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer_text{
+        margin: 20px auto;
+    }
+    .footer_info:last-child{
+        margin-bottom: 30px;
+    }
+    .footer_icon_link {
+        margin-bottom: 30px;
+    }
+    .phone_number.footer{
+        margin-top: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 560px){
+    .info_title {
+        margin: 40px auto 40px;
+    }
+    .info_number {
+        font-size: 40px;
+        line-height: 40px;
+        margin-right: 20px;
+    }
+    .info_text {
+        margin-bottom: 40px;
+    }
+    
+}
